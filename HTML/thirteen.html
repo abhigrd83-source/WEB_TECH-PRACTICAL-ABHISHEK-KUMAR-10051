@@ -1,0 +1,80 @@
+<!-- Experiment – 13 : Student Registration Form using HTML -->
+<!-- Name: Abhishek Kumar | ERP: 10051 -->
+
+<!-- Aim: -->
+<!-- To design a student registration form using HTML form elements -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI/ML Student Profile</title>
+</head>
+<body>
+
+    <center>
+        <h1>Department of Artificial Intelligence & Machine Learning</h1>
+        <hr width="50%">
+    </center>
+
+    <form action="#" method="get">
+        <table align="center" border="1" cellpadding="10" cellspacing="0">
+            <caption><h3>Student Registration Form</h3></caption>
+            
+            <tr>
+                <td><label for="name">Full Name:</label></td>
+                <td><input type="text" id="name" name="name" value="Abhishek Kumar" required></td>
+            </tr>
+
+            <tr>
+                <td><label for="age">Age:</label></td>
+                <td><input type="number" id="age" name="age" value="18" min="16" max="100"></td>
+            </tr>
+
+            <tr>
+                <td><label for="dob">Date of Birth:</label></td>
+                <td><input type="date" id="dob" name="dob" value="2006-11-25"></td>
+            </tr>
+
+            <tr>
+                <td><label for="email">Institutional Email:</label></td>
+                <td><input type="email" id="email" name="email" value="abhishek.kumar1@rungta.org" required></td>
+            </tr>
+
+            <tr>
+                <td>Gender:</td>
+                <td>
+                    <input type="radio" id="m" name="g" value="male" checked> <label for="m">Male</label>
+                    <input type="radio" id="f" name="g" value="female"> <label for="f">Female</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Course Specialization:</td>
+                <td>
+                    <select name="specialization">
+                        <option value="aiml" selected>AI & Machine Learning</option>
+                        <option value="ds">Data Science</option>
+                        <option value="cs">Core CSE</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="checkbox" id="terms" required checked>
+                    <label for="terms">I verify the data for ERP: 10051</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="reset" value="Clear Form">
+                    <input type="submit" value="Submit to Database">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>
