@@ -1,0 +1,19 @@
+<!-- Experiment 18 : Dynamic DOM -->
+<!-- Name: Abhishek Kumar | ERP: 10051 -->
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<button onclick="add()">Add Text</button>
+
+<script>
+function add() {
+    let p = document.createElement("p");
+    p.innerText = "New Paragraph Added";
+    document.body.appendChild(p);
+}
+</script>
+
+</body>
+</html>

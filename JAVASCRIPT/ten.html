@@ -1,0 +1,28 @@
+<!-- Experiment 10 : Validation -->
+<!-- Name: Abhishek Kumar | ERP: 10051 -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Validation</title>
+</head>
+<body>
+
+<form onsubmit="return check()">
+    Name: <input type="text" id="name">
+    <input type="submit">
+</form>
+
+<script>
+    function check() {
+        var n = document.getElementById("name").value;
+
+        if (n == "") {
+            alert("Name cannot be empty");
+            return false;
+        }
+    }
+</script>
+
+</body>
+</html>
