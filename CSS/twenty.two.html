@@ -1,0 +1,48 @@
+<!-- Experiment 22 : CSS Selectors -->
+<!-- Name: Abhishek Kumar | ERP: 10051 -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Selectors</title>
+
+    <style>
+        /* Universal selector */
+        * {
+            font-family: Arial;
+        }
+
+        /* ID selector */
+        #mainHeading {
+            color: red;
+        }
+
+        /* Class selector */
+        .box {
+            color: blue;
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        /* Descendant selector */
+        div p {
+            color: green;
+        }
+
+        /* Group selector */
+        h1, h2 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 id="mainHeading">CSS Selector Example</h1>
+    <h2>Group Selector Applied</h2>
+
+    <div class="box">
+        <p>This paragraph is styled using descendant selector.</p>
+    </div>
+
+</body>
+</html>

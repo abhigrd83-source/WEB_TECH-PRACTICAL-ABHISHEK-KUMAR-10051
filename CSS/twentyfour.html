@@ -1,0 +1,80 @@
+<!--
+Name: Abhishek Kumar
+ERP: 10051
+Experiment: 24
+Topic: Use div and span elements for layout and apply styling with CSS
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Div and Span Example</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            background-color: #f2f2f2;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            background-color: white;
+            padding: 20px;
+            border: 2px solid black;
+        }
+
+        .header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .content {
+            margin-top: 20px;
+            padding: 15px;
+            border: 1px solid #ccc;
+        }
+
+        .highlight {
+            color: red;
+            font-weight: bold;
+        }
+
+        .note {
+            background-color: #e6f7ff;
+            padding: 10px;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="header">
+            <h2>Div and Span Layout</h2>
+        </div>
+
+        <div class="content">
+            <p>
+                This paragraph is inside a div.
+                <span class="highlight">This text is styled using span.</span>
+            </p>
+
+            <p>
+                Div is used for layout,
+                <span class="highlight">span is used for inline styling</span>.
+            </p>
+        </div>
+
+        <div class="note">
+            <p>Div creates blocks and Span styles small text.</p>
+        </div>
+
+    </div>
+
+</body>
+</html>

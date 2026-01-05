@@ -1,0 +1,42 @@
+<!-- Experiment 23 : Responsive Web Page -->
+<!-- Name: Abhishek Kumar | ERP: 10051 -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Responsive Page</title>
+
+    <style>
+        /* Mobile-first design */
+        body {
+            font-size: 4vw;
+            background-color: lightgray;
+        }
+
+        .content {
+            background-color: lightblue;
+            padding: 15px;
+        }
+
+        /* Media query for larger screens */
+        @media (min-width: 600px) {
+            body {
+                font-size: 18px;
+                background-color: lightyellow;
+            }
+
+            .content {
+                width: 60%;
+                margin: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="content">
+        This page adjusts its layout and font size according to screen size.
+    </div>
+
+</body>
+</html>
